@@ -1,0 +1,189 @@
+body {
+  background: #2b2b2b;
+  height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica neue, roboto;
+  -webkit-user-select: none;
+}
+.link a {
+  display: block; /* Ссылка как блочный элемент */
+  
+  height: 100%; /* Высота на весь слой */
+}
+
+
+@keyframes color {
+  from {color: white} 
+  50% {color: #FFA07A}
+  to {color: white}
+}
+
+.main {
+  width: 500px;
+  height: 500px;
+  border: solid;
+  margin: 0 auto;
+  background-image: url("../img/fone.jpg");
+  background-position-x: -250px;
+}
+
+.header {
+  width: 450px;
+  height: 50px;
+  
+  margin: 0 auto;
+}
+.name-game {
+  float: left;
+  color: white;
+  font-weight: 600;
+  font-family: "Bookman Header";
+  padding-top: 12px;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  animation: color 2s infinite ease-in-out;
+  padding-left: 50px;
+}
+
+.music {
+  background-image: url("../img/1.png");
+  width: 50px;
+  height: 50px;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  float: left;
+}
+.music:hover {
+  background-image: url("../img/2.png");
+  background-size: 40px 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.restart {
+  background-image: url("../img/restart1.png");
+  width: 50px;
+  height: 50px;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  float: left;
+}
+.restart:hover {
+  background-image: url("../img/restart2.png");
+  background-size: 40px 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mysite {
+  background-image: url("../img/mysite.png");
+  width: 100px;
+  height: 50px;
+  background-size: 100px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  float: left;
+}
+.mysite:hover {
+  background-image: url("../img/mysite2.png");
+  background-size: 100px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.img-all {
+  width: 450px;
+  height: 200px;
+  border: solid;
+  margin: 0 auto;
+  background-image: url("../img/tavern.jpg");
+  background-size: 400px 200px;
+  
+}
+.img-face {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-image: url("../img/face2.png");
+  background-size: 200px 200px;
+  transition: 0.2s;
+}
+/* .img-face:hover{
+  background-image: url("../img/face1.png");
+} */
+
+.textarea {
+  width: 450px;
+  height: 200px;
+  border: solid;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.7);
+  
+}
+
+.text-npc {
+  color: LightSalmon;
+  width: 440px;
+  font-weight: 600;
+  height: 60px;
+  overflow: auto;
+}
+
+.text-option {
+  height: 130px;
+  
+  width: 440px;
+  overflow: auto;
+  color: white;
+}
+
+p {
+  margin: 5px;
+}
+p:hover {
+  color: Khaki;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-button { 
+background-image:url(''); 
+background-repeat:no-repeat; 
+width:6px; 
+height:0px 
+} 
+
+::-webkit-scrollbar-track { 
+background-color:#32312e; 
+box-shadow:0px 0px 3px #000 inset; 
+} 
+
+::-webkit-scrollbar-thumb { 
+-webkit-border-radius: 5px; 
+border-radius: 5px; 
+background-color:#ffcb17; 
+box-shadow:0px 1px 1px #fff inset; 
+background-image:url('https://yraaa.ru/_pu/24/59610063.png'); 
+background-position:center; 
+background-repeat:no-repeat; 
+} 
+
+::-webkit-resizer{ 
+background-image:url(''); 
+background-repeat:no-repeat; 
+width:7px; 
+height:0px 
+} 
+
+::-webkit-scrollbar{ 
+width: 11px; 
+}
+
